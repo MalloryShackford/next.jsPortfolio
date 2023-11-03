@@ -18,7 +18,7 @@ const About = () => {
               imparting knowledge and nurturing minds as a teacher. My journey has now taken 
               an exciting turn into the technological domain, where I am channeling my passion 
               for learning and problem-solving into programming. This latest chapter is not 
-              just a career shift—it's a synthesis of my dedication to growth, my love for challenge, 
+              just a career shift—it&apos;s a synthesis of my dedication to growth, my love for challenge, 
               and my commitment to lifelong learning </p>
             <p className='py-2 text-gray-600 underline cursor-pointer'>Check out some of my latest projects</p>
         </div>
