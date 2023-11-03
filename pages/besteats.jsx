@@ -29,15 +29,15 @@ const besteats = () => {
           <p>
             Indulge in the flavors of the world with FoodEats, a vibrant and interactive web application 
             dedicated to food enthusiasts. Built with the modern React framework and Vite for a swift development 
-            experience, FoodEats serves up a delicious UI that's as enticing as the dishes it portrays. 
+            experience, FoodEats serves up a delicious UI that&apos;s as enticing as the dishes it portrays. 
             The application boasts a collection of components such as Category, Food, HeadlineCards, and Hero, 
             each one offering a unique slice of the culinary journey. From browsing food categories to exploring 
             individual dishes, users can savor a rich interface designed with Tailwind CSS for a stylish, responsive layout.
 
             The project is seasoned with best coding practices, featuring ESLint for code quality assurance 
             and PostCSS for advanced styling capabilities. The inclusion of a dedicated data.js file suggests a 
-            well-organized approach to state management, ensuring that the app's content is as dynamic as its presentation. 
-            Whether you're a foodie looking for inspiration or a developer seeking a feast of code, FoodEats is a testament 
+            well-organized approach to state management, ensuring that the app&apos;s content is as dynamic as its presentation. 
+            Whether you&apos;re a foodie looking for inspiration or a developer seeking a feast of code, FoodEats is a testament 
             to the power of modern web development in creating engaging and appetizing digital experiences.
           </p>
           <a
