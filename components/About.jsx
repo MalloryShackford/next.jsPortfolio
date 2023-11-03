@@ -20,7 +20,7 @@ const About = () => {
               for learning and problem-solving into programming. This latest chapter is not 
               just a career shift—it&apos;s a synthesis of my dedication to growth, my love for challenge, 
               and my commitment to lifelong learning </p>
-            <p className='py-2 text-gray-600 underline cursor-pointer'>Check out some of my latest projects</p>
+            <a href="/#projects"><p className='py-2 text-gray-600 underline cursor-pointer'>Check out some of my latest projects</p></a>
         </div>
         <div className='w-full h-auto m-auto shadow-xl shadow-gray-400 rounded-xl flex items-center justify-center p-4 hover:scale-105 ease-in duration-300'>
             <Image src={AboutImg} alt='laptop' className='rounded-xl' />
