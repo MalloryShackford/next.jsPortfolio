@@ -27,18 +27,18 @@ const undertheradar = () => {
           <p>Project</p>
           <h2>Overview</h2>
           <p>
-            "Under the Radar" is a sophisticated web application that presents the bespoke services 
+            Under the Radar is a sophisticated web application that presents the bespoke services 
             of a private chef, offering a personalized culinary experience for those with discerning tastes. 
             Crafted with React and powered by Vite for a seamless development experience, this application 
             is the digital embodiment of exclusive dining.
 
-            The website features elegantly designed components each providing a window into the chef's culinary world. 
+            The website features elegantly designed components each providing a window into the chef&apos;s culinary world. 
             The application is adorned with tantalizing images of signature dishes, hinting at the bespoke 
             menus and exquisite flavors that await the clientele. With an intuitive and stylish interface, 
-            the application is a testament to the chef's attention to detail, mirroring the bespoke nature 
-            of the dining experiences offered. "Under the Radar" is more than just a website—it's a virtual 
-            venue that reflects the artistry and exclusivity of a private chef's services, inviting patrons 
-            to embark on a culinary journey that's as unique as their tastes. 
+            the application is a testament to the chef&apos;s attention to detail, mirroring the bespoke nature 
+            of the dining experiences offered. Under the Radar is more than just a website—it&apos;s a virtual 
+            venue that reflects the artistry and exclusivity of a private chef&apos;s services, inviting patrons 
+            to embark on a culinary journey that&apos;s as unique as their tastes. 
           </p>
           <a
             href='https://github.com/MalloryShackford/under_the_radar'
