@@ -6,6 +6,7 @@ import Link from 'next/link'
 import { AiOutlineClose, AiOutlineMenu, AiOutlineMail } from 'react-icons/ai' 
 import { FaLinkedinIn, FaGithub } from 'react-icons/fa'
 import { BsFillPersonLinesFill } from 'react-icons/bs'
+import navLogoImg from '../public/assets/nav-logo.png'
 
 const Navbar = () => {
     const [nav, setNav] = useState(false)
@@ -46,7 +47,7 @@ const Navbar = () => {
   return (
     <div style={{ backgroundColor: `${navBg}` }} className={shadow ? 'fixed w-full h-20 shadow-xl z-[100]' : 'fixed w-full h-20 z-[100]'}>
       <div className='flex justify-between items-center w-full h-full px-2 2xl:px-16'>
-        <Link href='/'><Image src="/../assets/nav-logo.png" alt="logo" width='125' height='50' /></Link>
+        <Link href='/'><Image src={navLogoImg} alt="logo" width='125' height='50' /></Link>
         <div>
             <ul style={{ color: `${linkColor}` }} className='hidden md:flex'>
                 <Link href='/'>
@@ -77,7 +78,7 @@ const Navbar = () => {
             : 'fixed left-[-100%] top-0 p-10 ease-in duration-500'}>
             <div>
                 <div className='flex w-full items-center justify-between'>
-                    <Link href='/'><Image onClick={()=> setNav(false)} src='/../assets/nav-logo.png' alt='logo' width='87' height='35'/></Link>
+                    <Link href='/'><Image onClick={()=> setNav(false)} src={navLogoImg} alt='logo' width='87' height='35'/></Link>
                     <div onClick={handleNav} className='rounded-full shadow-lg shadow-gray-400 p-3 cursor-pointer'>
                         <AiOutlineClose />
                     </div>
