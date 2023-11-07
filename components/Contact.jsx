@@ -47,33 +47,32 @@ const Contact = () => {
                 {/* right */}
                 <div className='col-span-3 w-full h-auto shadow-xl shadow-gray-400 rounded-xl lg:p-4'>
                     <div className='p-4'>
-                        <form
-                          action='https://formsubmit.co/f4687177a2fe4bd474fd074c82d9aebd'
-                            method='POST'>
-                            <div className='grid md:grid-cols-2 gap-4 w-full py-2'>
-                                <div className='flex flex-col'>
-                                    <label className='uppercase text-sm py-2'>Name</label>
-                                    <input className='border-2 rounded-lg p-3 flex border-gray-300' type='text' />
-                                </div>
-                                <div className='flex flex-col'>
-                                    <label className='uppercase text-sm py-2'>Phone Number</label>
-                                    <input className='border-2 rounded-lg p-3 flex border-gray-300' type='text' />
-                                </div>
-                            </div>
-                            <div className='flex flex-col py-2'>
-                                <label className='uppercase text-sm py-2'>Email</label>
-                                <input className='border-2 rounded-lg p-3 flex border-gray-300' type='email' />
-                            </div>
-                            <div className='flex flex-col py-2'>
-                                <label className='uppercase text-sm py-2'>Subject</label>
-                                <input className='border-2 rounded-lg p-3 flex border-gray-300' type='text' />
-                            </div>
-                            <div className='flex flex-col py-2'>
-                                <label className='uppercase text-sm py-2'>Message</label>
-                                <textarea className='border-2 rounded-lg p-3 border-gray-300' rows='10'></textarea>
-                            </div>
-                            <button type='submit' className='w-full text-gray-100 p-4 bg-gradient-to-r from-[#5651e5] to-[#709dff] mt-4'>Send Message</button>
-                        </form>
+                        <form action='https://formsubmit.co/f4687177a2fe4bd474fd074c82d9aebd' method='POST'>
+                          <div className='grid md:grid-cols-2 gap-4 w-full py-2'>
+                          <div className='flex flex-col'>
+                            <label className='uppercase text-sm py-2'>Name</label>
+                            <input name="name" className='border-2 rounded-lg p-3 flex border-gray-300' type='text' />
+                          </div>
+                          <div className='flex flex-col'>
+                            <label className='uppercase text-sm py-2'>Phone Number</label>
+                            <input name="phone" className='border-2 rounded-lg p-3 flex border-gray-300' type='text' />
+                          </div>
+                    </div>
+                        <div className='flex flex-col py-2'>
+                          <label className='uppercase text-sm py-2'>Email</label>
+                          <input name="email" className='border-2 rounded-lg p-3 flex border-gray-300' type='email' />
+                        </div>
+                        <div className='flex flex-col py-2'>
+                          <label className='uppercase text-sm py-2'>Subject</label>
+                          <input name="subject" className='border-2 rounded-lg p-3 flex border-gray-300' type='text' />
+                        </div>
+                        <div className='flex flex-col py-2'>
+                          <label className='uppercase text-sm py-2'>Message</label>
+                          <textarea name="message" className='border-2 rounded-lg p-3 border-gray-300' rows='10'></textarea>
+                        </div>
+                        <button type='submit' className='w-full text-gray-100 p-4 bg-gradient-to-r from-[#5651e5] to-[#709dff] mt-4'>Send Message</button>
+                      </form>
+
                     </div>
                 </div>
             </div>
