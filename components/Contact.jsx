@@ -48,7 +48,7 @@ const Contact = () => {
                 <div className='col-span-3 w-full h-auto shadow-xl shadow-gray-400 rounded-xl lg:p-4'>
                     <div className='p-4'>
                         <form
-                          action='https://formsubmit.co/f4687177a2fe4bd474fd074c82d9aebd'
+                          action='https://formsubmit.co/9eb8400d13809384a217392d8c97d16e'
                             method='POST'>
                             <div className='grid md:grid-cols-2 gap-4 w-full py-2'>
                                 <div className='flex flex-col'>
