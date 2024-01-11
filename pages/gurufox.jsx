@@ -40,7 +40,7 @@ const gurufox = () => {
             ensuring each recommendation is as unique as your relationship.
           </p>
           <a
-            href='https://github.com/MalloryShackford/under_the_radar'
+            href='https://github.com/MalloryShackford/ourdate'
             target='_blank'
             rel='noreferrer'
           >
