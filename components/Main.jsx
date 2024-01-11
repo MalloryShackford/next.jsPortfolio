@@ -27,7 +27,7 @@ const Main = () => {
                     <a href="mailto:mallory.shackford@gmail.com"><AiOutlineMail /></a>
                 </div>
                 <div className='rounded-full shadow-lg shadow-gray-400 p-6 cursor-pointer hover:scale-110 ease-in duration-300'>
-                   <a href="/shackford_resume.pdf" target="_blank" rel="noopener noreferrer" title="Resume"><BsFillPersonLinesFill /></a>
+                   <a href="/shack_resume.pdf" target="_blank" rel="noopener noreferrer" title="Resume"><BsFillPersonLinesFill /></a>
                 </div>
 
           </div>
