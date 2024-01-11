@@ -1,6 +1,6 @@
 import React from 'react'
 import ProjectItem from '../components/ProjectItem'
-import gurufoxImg from '../public/assets/Projects/gurufox.png'
+import gurufoxImg from '../public/assets/Projects/public/assets/Projects/ourdate.png'
 import bestEatsImg from '../public/assets/Projects/besteats.png'
 import utrImg from '../public/assets/Projects/utr.png'
 import weekawayImg from '../public/assets/Projects/weekaway.png'
