@@ -15,7 +15,7 @@ const Projects = () => {
                 <ProjectItem 
                     title='Pokedex' 
                     backgroundImg={pokedexImg} 
-                    projectUrl='/weekaway'
+                    projectUrl='/pokedex'
                  />
                 <ProjectItem 
                     title='Gurufox Ai' 
