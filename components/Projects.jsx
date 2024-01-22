@@ -3,7 +3,7 @@ import ProjectItem from '../components/ProjectItem'
 import gurufoxImg from '../public/assets/Projects/public/assets/Projects/ourdate.png'
 import bestEatsImg from '../public/assets/Projects/besteats.png'
 import utrImg from '../public/assets/Projects/utr.png'
-import weekawayImg from '../public/assets/Projects/weekaway.png'
+import pokedexImg from '../public/assets/Projects/pokedex.png'
 
 const Projects = () => {
   return (
@@ -14,7 +14,7 @@ const Projects = () => {
             <div className='grid md:grid-cols-2 gap-8'>
                 <ProjectItem 
                     title='Weekaway' 
-                    backgroundImg={weekawayImg} 
+                    backgroundImg={pokedexImg} 
                     projectUrl='/weekaway'
                  />
                 <ProjectItem 
@@ -39,3 +39,4 @@ const Projects = () => {
 }
 
 export default Projects
+
