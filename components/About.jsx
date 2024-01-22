@@ -11,8 +11,8 @@ const About = () => {
             <h2 className='py-4'>Who I Am</h2>
             <p className='py-2 text-gray-600'>I am not your normal developer</p>
             <p className='py-2 text-gray-600'>
-              With a rich tapestry of experience that spans over 15 years in the vibrant 
-              world of hospitality, I have mastered the art of service, attention to detail, 
+              My experience spans over 15 years in the vibrant 
+              world of hospitality. I have mastered the art of service, attention to detail, 
               and the nuanced art of customer satisfaction. Transitioning from orchestrating 
               memorable guest experiences, I embraced the realm of education, spending a year 
               imparting knowledge and nurturing minds as a teacher. My journey has now taken 
