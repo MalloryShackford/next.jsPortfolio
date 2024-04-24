@@ -41,7 +41,7 @@ const undertheradar = () => {
             to embark on a culinary journey that&apos;s as unique as their tastes. 
           </p>
           <a
-            href='https://github.com/MalloryShackford/under_the_radar'
+            href='https://github.com/MalloryShackford/cheftimmaslow'
             target='_blank'
             rel='noreferrer'
           >
