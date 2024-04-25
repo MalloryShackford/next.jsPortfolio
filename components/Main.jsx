@@ -27,7 +27,7 @@ const Main = () => {
                     <a href="mailto:mallory.shackford@gmail.com"><AiOutlineMail /></a>
                 </div>
                 <div className='rounded-full shadow-lg shadow-gray-400 p-6 cursor-pointer hover:scale-110 ease-in duration-300'>
-                   <a href="https://acrobat.adobe.com/id/urn:aaid:sc:VA6C2:4df634e9-4005-4645-9b2a-6d20ba73b1ad" target="_blank" rel="noopener noreferrer" title="Resume"><BsFillPersonLinesFill /></a>
+                   <a href="https://acrobat.adobe.com/id/urn:aaid:sc:VA6C2:8d02535f-319d-4470-b7aa-95522a206921" target="_blank" rel="noopener noreferrer" title="Resume"><BsFillPersonLinesFill /></a>
                 </div>
 
           </div>
